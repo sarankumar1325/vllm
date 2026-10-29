@@ -241,7 +241,7 @@ guide: |
   - **Verified accuracy:** Use the pinned commit
     `0f3ce4c74b1875791d6604e006b6e905fde9f698` if reproducing MiniMax's reported results.
   - **DeepGEMM:** vLLM uses DeepGEMM by default; install via
-    [install_deepgemm.sh](https://github.com/vllm-project/vllm/blob/main/tools/install_deepgemm.sh)
+    [install_deepgemm.sh](https://github.com/vllm-project/vllm/blob/v0.16.0rc0/tools/install_deepgemm.sh)
     if missing.
   - **AITER first launch:** Initial AMD launch JIT-compiles optimized kernels; subsequent launches reuse cached kernels.
 

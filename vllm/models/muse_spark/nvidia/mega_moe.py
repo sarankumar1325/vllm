@@ -53,7 +53,7 @@ def _get_deep_gemm():
         raise RuntimeError(
             "Muse Spark MegaMoE requires the pinned DeepGEMM build "
             "with BF16 post-expert normalization and TRT-LLM NVFP4 weight layout. "
-            "Install it with tools/install_deepgemm.sh or rebuild the vLLM wheel."
+            "Reinstall or rebuild vLLM to get the bundled DeepGEMM build."
         )
     return module
 

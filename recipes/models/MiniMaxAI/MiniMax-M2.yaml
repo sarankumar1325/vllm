@@ -223,7 +223,7 @@ guide: |
   - **Corrupted output on stable release:** Upgrade to a nightly after commit
     `cf3eacfe58fa9e745c2854782ada884a9f992cf7`.
   - **DeepGEMM:** vLLM uses DeepGEMM by default; install via
-    [install_deepgemm.sh](https://github.com/vllm-project/vllm/blob/main/tools/install_deepgemm.sh)
+    [install_deepgemm.sh](https://github.com/vllm-project/vllm/blob/v0.16.0rc0/tools/install_deepgemm.sh)
     when missing.
   - **AITER first launch:** AMD initial launch JIT-compiles CK-based FP8 MoE, RMSNorm,
     and activation kernels. Subsequent launches use cached kernels.
